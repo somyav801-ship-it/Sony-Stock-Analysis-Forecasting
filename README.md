@@ -66,9 +66,16 @@ Models were trained up to Aug 2025 and tested on the following 12 months.
 ## Visualizations
 | | |
 |---|---|
-| ![Price trend](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/price.png 
-) | ![Returns & volatility](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/CALENDER%20AND%20ANNUAL%20VOLATILITY.png) |
-| ![Seasonality](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/MONTHLY%20average%20return.png) | ![Drawdown](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/daily%20retun.png) |
+| ![Price trend](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/price.png )
+
+| ![Returns & volatility](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/CALENDER%20AND%20ANNUAL%20VOLATILITY.png) |
+
+
+| ![Seasonality](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/MONTHLY%20average%20return.png) 
+
+| ![Drawdown](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/daily%20retun.png) |
+
+
 
 ![Forecast](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/forecast.png)
 
