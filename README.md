@@ -23,7 +23,7 @@ An investor or analyst needs to understand how Sony's stock has behaved over the
 2. **Feature engineering:** daily returns, 20/50/200-day moving averages, 30-day annualised volatility, drawdown, monthly and yearly aggregates.
 3. **Exploratory analysis:** long-term trend, volatility regimes, drawdowns, calendar-month seasonality, return distribution.
 4. **Forecasting:** Holt (damped), Holt-Winters and ARIMA compared against a naive baseline using a 12-month holdout backtest.
-5. **Dashboard:** interactive view with year filters, metric switch and forecast toggle (Power BI build guide included).
+5. **Dashboard:** interactive view with year filters, metric switch .
 6. **SQL:** analytical queries for yearly summary, YoY return, seasonality, MA crossovers and high-volume days.
 
 ## Key Findings
@@ -59,18 +59,18 @@ Models were trained up to Aug 2025 and tested on the following 12 months.
 - To assess financial health (margins, cost reduction), extend this project with Sony's income statement and balance sheet, which are not part of this dataset.
 
 ## Dashboard
-![Dashboard preview](images/dashboard_preview.png)
+![Dashboard preview](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/sony_stock.pdf)
 
-- Interactive HTML dashboard: `sony_dashboard.html` (open in a browser)
-- Power BI build guide with DAX measures: `powerbi_guide.md`
+
 
 ## Visualizations
 | | |
 |---|---|
-| ![Price trend](images/01_price_trend.png) | ![Returns & volatility](images/02_yearly_returns_volatility.png) |
-| ![Seasonality](images/03_monthly_seasonality.png) | ![Drawdown](images/04_returns_drawdown.png) |
+| ![Price trend](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/price.png 
+) | ![Returns & volatility](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/CALENDER%20AND%20ANNUAL%20VOLATILITY.png) |
+| ![Seasonality](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/MONTHLY%20average%20return.png) | ![Drawdown](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/daily%20retun.png) |
 
-![Forecast](images/05_forecast.png)
+![Forecast](https://github.com/somyav801-ship-it/Sony-Stock-Analysis-Forecasting/blob/main/forecast.png)
 
 ## Repository Structure
 ```
@@ -80,34 +80,12 @@ Models were trained up to Aug 2025 and tested on the following 12 months.
 │   └── Sony_Stock_Analysis.ipynb
 ├── sql/
 │   └── sony_queries.sql
-├── outputs/
-│   ├── sony_clean_daily.csv
-│   ├── sony_monthly.csv
-│   ├── sony_yearly.csv
-│   ├── forecast_12m.csv
-│   └── forecast_backtest_metrics.csv
-├── images/
 ├── dashboard/
-│   ├── sony_dashboard.html
-│   └── powerbi_guide.md
+│   ├── sony_dashboard
+│   
 └── README.md
 ```
 
-## How to Run
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install pandas numpy matplotlib seaborn statsmodels jupyter
-jupyter notebook notebooks/Sony_Stock_Analysis.ipynb
-```
-Place `sony_stock_data.csv` in the same folder as the notebook before running (or update the `DATA` path in the first cell).
-
-## Limitations
-- Market data only: no revenue, profit or balance sheet figures.
-- Forecasts have limited accuracy; stock prices follow close to a random walk.
-- Past performance does not guarantee future results. This is not investment advice.
-
 ## Author
 **Somya Verma** | Data Analyst
-Python | SQL | Power BI | Excel
-[LinkedIn](https://linkedin.com/in/<your-profile>) | [GitHub](https://github.com/<your-username>)
+
